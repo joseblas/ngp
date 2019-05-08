@@ -4,7 +4,7 @@
 replicaCount: 1
 image:
   repository: gcr.io/jtaboada-jx/ngp
-  tag: 1.0.0
+  tag: 0.0.2
   pullPolicy: IfNotPresent
 
 # define environment variables here as a map of key: value
