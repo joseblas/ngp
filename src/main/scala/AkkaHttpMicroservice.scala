@@ -25,6 +25,8 @@ trait Service extends Protocols {
   implicit def executor: ExecutionContextExecutor
   implicit val materializer: Materializer
 
+  def helo =  "hola mundo"
+
   def config: Config
   val logger: LoggingAdapter
 
