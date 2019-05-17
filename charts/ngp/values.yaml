@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: gcr.io/jenkins-x-infra/ngp
-  tag: 1.1.6
+  repository: gcr.io/jtaboada-jx/ngp
+  tag: 1.1.7
   pullPolicy: IfNotPresent
 
 # define environment variables here as a map of key: value
